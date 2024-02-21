@@ -1,0 +1,10 @@
+export { default as Home } from "./Home/Home";
+export { default as Welcome } from "./Welcome/Welcome";
+export { default as Cart } from "./Cart/Cart";
+export { default as ProductsDetails } from "./ProductsDetails/ProductsDetails";
+export { default as SignIn } from "./Auth/SignIn";
+export { default as SignUp } from "./Auth/SignUp";
+export { default as Payment } from "./Payment/Payment";
+export { default as OrderHistory } from "./OrderHistory/OrderHistory";
+export { default as OrderHistoryDetails } from "./OrderHistoryDetails/OrderHistoryDetails";
+export { default as UserProfile } from "./UserProfile/UserProfile";
