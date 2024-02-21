@@ -168,4 +168,4 @@ BASE_URL = "https://api.prounity.uz/auth/user"
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
-# FORCE_SCRIPT_NAME = "/store"
+FORCE_SCRIPT_NAME = "/store"
