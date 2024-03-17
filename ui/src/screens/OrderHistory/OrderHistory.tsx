@@ -55,7 +55,7 @@ const OrderHistory: React.FC<any> = ({ navigation }) => {
   }, [focused]);
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Orders</Text>
+      <Text style={styles.title}>Orders History</Text>
       <FlatList
         data={orderData}
         renderItem={({ item }) => (
@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
+    backgroundColor:"#fff"
   },
   title: {
     fontSize: 30,

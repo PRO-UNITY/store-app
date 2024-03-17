@@ -25,6 +25,7 @@ api.interceptors.response.use(
   },
   async (error) => {
     if (error.response && error.response.status === 401) {
+      AsyncStorage.clear();
     }
     return Promise.reject(error);
   }

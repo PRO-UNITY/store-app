@@ -21,10 +21,10 @@ const TabNavigator = () => {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      screenOptions={{ headerShown: false }}
-      tabBarOptions={{
-        activeTintColor: "#8BA4D9",
-        inactiveTintColor: "gray",
+      screenOptions={{
+        headerShown: false,
+        tabBarActiveTintColor: "#8BA4D9",
+        tabBarInactiveTintColor: "gray",
       }}
     >
       <Tab.Screen
